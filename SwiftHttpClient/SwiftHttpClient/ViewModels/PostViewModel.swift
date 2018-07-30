@@ -54,13 +54,14 @@ class PostViewModel: NSObject {
                     self.posts = try decoder.decode([Post].self, from: data)
                     
                 }catch let err{
-                    print("Parsing error is ",err)
+                    self.errorHandler(err)
                 }
             }
             
         }) { (error) in
             print("Http error is ",error?.localizedDescription as Any)
-            
+            self.errorHandler(error!)
+
         }
     }
 
