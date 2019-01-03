@@ -21,6 +21,7 @@ class HTTPClient: NSObject {
         
         let request:NSMutableURLRequest = NSMutableURLRequest(url: NSURL(string: url)! as URL, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 10)
         
+        
 
         request.httpMethod = apiType.rawValue
         
