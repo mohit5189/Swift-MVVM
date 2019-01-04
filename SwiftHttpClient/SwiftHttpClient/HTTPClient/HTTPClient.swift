@@ -8,9 +8,9 @@
 
 import UIKit
 
-enum ApiType:String{
-    case GET = "GET"
-    case POST = "POST"
+enum ApiType: String{
+    case GET
+    case POST
 }
 
 class HTTPClient: NSObject {
