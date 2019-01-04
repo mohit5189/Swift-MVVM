@@ -12,6 +12,10 @@ class PostTableViewController: UITableViewController {
     var x = "amhskjdh askjf asjkhf jh kfahf kjahf kahf kahf kjahf kjahfk ajsdfh jsdhfk ashf as fkasdhf kash fkjashdfk asdf asdkj fakdjshf kjadsh jksdhf asdhf askd fadksjf akh fh djshadsfak "
     
     var testinglongvariablenamewithhoundCIongithub = 4
+    var testinglongvariablenamewithhoundCIongithub2 = 4
+    var testinglongvariablenamewithhoundCIongithub3 = 4
+
+    
     
     var postViewModel:PostViewModel = PostViewModel()
     
