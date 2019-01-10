@@ -9,6 +9,8 @@
 import UIKit
 
 extension PostTableViewController{
+    
+    // test
     override func numberOfSections(in tableView: UITableView) -> Int {
         return postViewModel.numberOfSection();
     }
